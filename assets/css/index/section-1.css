@@ -1,0 +1,12 @@
+.sec {
+    padding: 250px 0;
+}
+
+.section-1 .__grupo_texto {
+    text-align: center;
+}
+
+.section-1 .__grupo_texto .__titulo {
+    font-size: 20pt;
+    font-weight: bold;
+}

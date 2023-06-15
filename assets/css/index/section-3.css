@@ -1,0 +1,27 @@
+.section-3 .__titulo {
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.section-3 .__grupo_txt_img {
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.section-3 .__grupo_txt_img .__bloco_img {
+    background-color: #F5F5F5;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* imagem da estrutura aerea */
+.section-3 .__grupo_txt_img .__img_estrutura_aerea {
+    width: 50px;
+}

@@ -1,0 +1,102 @@
+footer {
+    display: flex;
+    gap: 40px;
+    line-height: 25px;
+    background: var(--siza);
+    padding: 60px 90px;
+    padding-bottom: 50px;
+    align-items: center;
+    list-style: none;
+    line-height: 30px;
+    justify-content: center;
+}
+
+footer .nome {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: var(--verde-claro);
+    font-size: 18px;
+}
+
+footer .localizacao {
+    color: var(--siza-claro);
+}
+
+footer .mantenedor {
+    margin: 20px;
+}
+
+footer .ouvidoria {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .ouvidoria a {
+    color: var(--siza-claro);
+    text-decoration: none;
+    padding: 3px;
+    transition: all .2s;
+}
+
+footer .ouvidoria .numb {
+    width: 50%;
+}
+
+footer .ouvidoria a:hover {
+    color: var(--verde-claro);
+    background: var(--branco);
+}
+
+footer .ouvidoria .icons {
+    padding: 0 5px;
+    transform: translate(0%,10%);
+    transition: all .4s;
+}
+
+footer .ouvidoria .icons:hover {
+    transform: translate(0%,-10%);
+}
+
+footer .icon-localizacao::before {
+    content: var(--icon);
+}
+
+:root {
+    --branco: #dfdfdf;
+    --siza-claro: #7a7c7d;
+    --siza: #cfcfcf;
+    --verde-claro: #007e7a;
+    --icon: url("../icon/");
+}
+
+.email {
+    line-height: 20px;
+}
+
+@media(max-width: 1200px) {
+    footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width: 768px) {
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    footer .ouvidoria {
+        align-items: center;
+    }
+
+    footer .mantenedor  {
+        margin: 0;
+    }
+}
+
+@media(max-width: 425px) {
+    footer {
+        padding: 20px 10px;
+    }
+}

@@ -1,0 +1,25 @@
+.section-4 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 120px 0 200px 0;
+    background: #F5F5F5;
+}
+
+.section-4 .__grupo_txt_btn .__titulo {
+    font-weight: bold;
+}
+
+.section-4 .__grupo_txt_btn .__btn_visu{
+    padding: 5px 20px;
+    background: #A00062;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* imagem da estrutura aerea */
+.section-4 .__img_estrutura_3d {
+    width: 400px;
+}

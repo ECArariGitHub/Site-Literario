@@ -1,0 +1,44 @@
+.cabecalho {
+    background: linear-gradient(0deg, #5bc4bf 0%, #007e7a 100%);
+    box-shadow: 0px 3px 4px #00000091;
+}
+
+/* logo da ec */
+.cabecalho .img_logo {
+    width: 100px;
+    margin: 10px 0 0 10px;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navegacao .__grupo_nav {
+    display: flex;
+    gap: 50px;
+}
+
+/* li do link */
+.navegacao .__grupo_nav .__li_link {
+    list-style: none;
+    padding: 10px;
+    transition: all .5s;
+}
+
+/* link */
+.navegacao .__grupo_nav .__conograma {
+    box-shadow: 0 3px 0 #fff;
+}
+.navegacao .__grupo_nav .__a_link {
+    text-decoration: none;
+    font-size: 18pt;
+    color: #fff;
+    transition: all .5s;
+    padding: 10px;
+}
+.navegacao .__grupo_nav .__a_link:hover {
+    color: #EDB111;
+    box-shadow: 0 3px 0 #fff;
+}

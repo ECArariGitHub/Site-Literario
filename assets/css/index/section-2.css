@@ -1,0 +1,12 @@
+.section-2 {
+    background: #F5F5F5;
+}
+
+.section-2 .__grupo_texto {
+    text-align: center;
+}
+
+.section-2 .__grupo_texto .__titulo {
+    font-size: 20pt;
+    font-weight: bold;
+}
